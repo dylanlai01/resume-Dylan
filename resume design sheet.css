@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+html{
+	background-image: url("aura.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    }
+
+
+
+ul{
+   list-style-type: none;
+   padding: 0px;
+   margin:0px;
+   overflow: hidden;
+   text-align: center;
+   border-radius: 33px;
+  }
+
+li a{
+	float: left;
+	display: block;
+	font-family: "Roboto Mono", monospace;
+  font-weight:600;
+  font-size: 16px;
+	color: green;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	width: 300px;
+	border-right: 1px solid orange;
+  }
+
+li a:hover{
+	     background-color: #f4c20d;
+	     animation: myGlowAnimation;
+	     animation-duration: 3s;
+	     animation-iteration-count: infinite;
+	     }
+h1{
+	font-family: "Monoton", cursive;
+     font-size: 32px;
+	color: white;}
+
+#overview{
+	   text-align: center;
+	   }
+
+
+/* FINISH---------------------------- */
+
+/* profile image---------------------------- */
+img{border-radius:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+   }
+
+img.center{
+	      max-width:20%;
+           height:auto;
+         }
+/* finish---------------------------- */
+/* overall P---------------------------- */
+p{
+  font-family:'Fredoka', sans-serif;
+  font-size:18px;
+  color:white;
+  }
+
+/* finish---------------------------- */
+
+
+
+
+/* personal details---------------------------- */
+.personal{
+	       border-style: solid;
+         padding: 2px;
+         border-width: 2px;
+         margin: auto;
+         width: 95%;
+         border-color: #76EFDC;
+         text-align: center;
+         font-size: 15px;
+         font-family:'Fredoka', sans-serif;
+         }
+a:link{
+	  color: blue;
+	  }
+
+a:visited{
+	      color: blue;
+	      }
+
+/*--------------------------------------------*/
+
+/* Education----------------------------------*/
+
+.Education{
+	        border-style: solid;
+	        padding:2px;
+	        border-width:2px;
+	        border-color:#76EFDC;
+	        margin: auto;
+	        width: 95%;
+	        font-family:'Fredoka', sans-serif;
+	        font-size: 15px;
+	        color: #ADE3DB;
+	        }
+
+
+
+/*--------------------------------------------*/
+ /*---------------------Extracurriculur--------------*/
+#Extracurriculur{
+                border-style: solid;
+                border-width: 2px;
+                padding: 2px;
+                border-color:#76EFDC;
+                margin: auto;
+                width: 95%;
+                font-family:'Fredoka', sans-serif;
+	              font-size: 15px;
+	              color: #ADE3DB;
+	             }
+
+
+
+
+
+ /*----------------finish---------------------*/
+
+
+ /*----------------Working Experience---------------------*/
+#Experience{
+	         border-style: solid;
+	         border-width: 2px;
+	         padding: 2px;
+	         border-color:#76EFDC;
+	         margin: auto;
+	         width: 95%;
+	         font-family:'Fredoka', sans-serif;
+	         font-size: 15px;
+	         color: #ADE3DB;
+	        }
+
+
+
+
+
+ /*----------------finish---------------------*/
+
+
+
+ /*----------------awards---------------------*/
+#Awards{ 
+	      border-style: solid;
+	      border-width: 2px;
+	      padding: 2px;
+	      border-color:#76EFDC;
+	      margin: auto;
+	      width: 95%;
+	      font-family:'Fredoka', sans-serif;
+	      font-size: 15px;
+	      color: #ADE3DB;
+	    }
+
+
+
+
+
+
+
+
+
+ /*----------------finish---------------------*/
+
